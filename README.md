@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](assets/images/demo-website.png)
+![screenshot](assets/images/solution.png)
 
 - Where can I see your demo? Here <a href="https://legacy.devchallenges.io/solutions/B8gSfdVR6OSVZoJziZa5">Demo</a>
 - What was your experience? I spent at least one project which wasn't decently built with both displays mix, flex and grid. Then, I decided to do it the right way, replacing these blocks or sections with normal test text, and then changing one by one section in the html file. Was funny couldn't figure it out well how change when the image and text block will change their margin when they're odd or even, in the grid section. But, I least I tried, and it's perfectly responsive for me!
