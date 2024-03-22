@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://devchallenges-my-team-page-3rbxyyxel-donjorgeestoicos-projects.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://legacy.devchallenges.io/solutions/B8gSfdVR6OSVZoJziZa5">
       Solution
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://legacy.devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
   </h3>
@@ -38,7 +38,7 @@
 
 ![screenshot](assets/images/demo-website.png)
 
-- Where can I see your demo? Here <a href="">Demo</a>
+- Where can I see your demo? Here <a href="https://legacy.devchallenges.io/solutions/B8gSfdVR6OSVZoJziZa5">Demo</a>
 - What was your experience? I spent at least one project which wasn't decently built with both displays mix, flex and grid. Then, I decided to do it the right way, replacing these blocks or sections with normal test text, and then changing one by one section in the html file. Was funny couldn't figure it out well how change when the image and text block will change their margin when they're odd or even, in the grid section. But, I least I tried, and it's perfectly responsive for me!
 - What have you learned/improved? I reviewed how play with the transform property to the text, and review grid-template-columns properties again to make it bit fair with a grid display in it.
 - Your wisdom? Never feel useless or less just because you don't know something easy, medium or hard concepts, or algorithms, you need to practice by learning and mistaking, over and over.
@@ -54,7 +54,7 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge]() was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements
