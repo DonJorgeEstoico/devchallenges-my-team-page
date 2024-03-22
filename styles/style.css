@@ -1,0 +1,130 @@
+/*--------------HTML-AND-BODY--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: auto;
+}
+
+/*--------------FONT-FACE--------------*/
+@font-face {
+    font-family: ptSerif;
+    src: url(assets/fonts/ptSerif.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(assets/fonts/poppins.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(assets/fonts/montserrat.ttf);
+}
+
+/*--------------GRID--------------*/
+.grid-block,
+.grid-header,
+.grid-section {
+    display: grid;
+    justify-items: center;
+    margin-inline: 12rem;
+    grid-gap: 1rem;
+}
+
+.grid-header {
+    grid-template-columns: repeat(2, 1fr);
+    margin-block: 2rem;
+}
+
+.grid-section {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*--------------MEDIA--------------*/
+@media only screen and (max-width: 800px) {
+
+    .grid-block,
+    .grid-header,
+    .grid-section {
+        margin-inline: 5rem;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+
+    .grid-block,
+    .grid-header,
+    .grid-section {
+        justify-items: baseline;
+        margin: 1rem;
+    }
+
+    .grid-header {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*--------------HEADER--------------*/
+.h-first-title {
+    font-family: ptSerif;
+    white-space: nowrap;
+}
+
+/*--------------MAIN-SECTION-------------*/
+.flex-img-txts {
+    display: flex;
+}
+
+.flex-img-txts:nth-child(2n) {
+    margin-top: 5rem;
+}
+
+.flex-img-txts:nth-child(2n+1) {
+    margin-bottom: 5rem;
+}
+
+.img-size {
+    height: 14rem;
+}
+
+.grid-img-txt {
+    display: grid;
+}
+
+.wrap-vertically-txt {
+    transform: rotate(90deg) scaleX(1);
+    height: fit-content;
+    width: 1rem;
+    white-space: nowrap;
+}
+
+.grid-top {
+    margin-bottom: 5rem;
+}
+
+.grid-bottom {
+    margin-top: 5rem;
+}
+
+/*--------------FOOTER--------------*/
+footer {
+    color: #bdbdbd;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+}
